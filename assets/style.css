@@ -43,7 +43,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-color: #ef7920;
+    background-color: white;
     border: 0.1rem white solid;
     border-radius: 2%;
 
@@ -110,7 +110,7 @@ span {
     cursor: pointer;
 }
 
-.message {
+.mensage {
     height: 4rem;
     width: 19rem;
 
@@ -143,7 +143,7 @@ span {
         font-size: 24px;
     }
 
-    .message {
+    .mensage {
 
         width: 30rem;
         height: 9rem;
