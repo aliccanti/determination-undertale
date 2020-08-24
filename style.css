@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body,
+button {
+    font-family: Roboto Mono, sans-serif;
+    color: whitesmoke;
+}
+
+header {
+    background-color: black;
+    font-family: 'Press Start 2P', cursive;
+
+    width: 100vw;
+    height: 7rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    height: 5.5rem;
+}
+
+header p {
+    text-transform: uppercase;
+}
+
+body {
+    background-color: black;
+}
+
+.main-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ef7920;
+    border: 0.1rem white solid;
+    border-radius: 2%;
+
+   
+    height: 20rem;
+    margin: 2rem;
+
+}
+
+.main-container .title-main {
+    
+    color: whitesmoke;
+    margin: -6rem 1rem 2rem 1rem;
+}
+
+.container-primary {
+
+    background-color: black;
+    border-radius: 2%;
+
+    height: 15rem;
+    width: 22.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+span {
+    text-transform: uppercase;
+}
+
+.content-main {
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+    margin: 5rem 0 2rem 0;
+
+    
+    
+}
+
+.button-function {
+
+    background-color: black;;
+    color:#ef7920;
+
+    
+    padding: 0.4rem;
+
+    border: 3px solid #ef7920;
+    border-radius: 4%;
+
+    margin-bottom: -1rem;
+}
+
+.button-function:hover {
+    cursor: pointer;
+}
+
+.message {
+    height: 4rem;
+    width: 19rem;
+
+    padding: 0.5rem;
+}
+
+@media (min-width: 900px) {
+    .main-container {
+
+        max-width: 900px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin: 3rem auto 2rem auto;
+
+        width: 40rem;
+        height: 25rem;
+    }
+
+    .container-primary {
+
+        height: 20rem;
+        width: 35rem;
+    }
+
+    .main-container .title-main {
+        font-size: 24px;
+    }
+
+    .message {
+
+        width: 30rem;
+        height: 9rem;
+    }
+
+       
+}
