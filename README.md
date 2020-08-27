@@ -8,4 +8,4 @@
 - Java Script;
 
 <p>Criado seguindo o conceito Mobile isrt.</p>
-<a href="https://aliccanti.github.io/determination-undertale/">Veja aqui!</a>
+<a href="https://aliccanti.github.io/determination-undertale/" target="_blank" >Veja aqui!</a>
