@@ -5,7 +5,7 @@
 <h2>Feito com:</h2> 
 
 - HTML & CSS;
-- Java Script;
+- JavaScript;
 
-<p>Criado seguindo o conceito Mobile isrt.</p>
+<p>Criado seguindo o conceito Mobile Fisrt.</p>
 <a href="https://aliccanti.github.io/determination-undertale/" target="_blank" >Veja aqui!</a>
